@@ -1,4 +1,7 @@
 <?php 
+
+namespace FileHelper;
+
 class FileHelper{
     public static function getParser($file){
         $extension = pathinfo($uploadFileName, PATHINFO_EXTENSION);
